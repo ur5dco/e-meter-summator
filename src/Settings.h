@@ -143,10 +143,10 @@ uint16_t modbus_registers_addresses[] = {
 
 const int NUM_REGISTERS = sizeof(modbus_registers_addresses) / sizeof(modbus_registers_addresses[0]);
 
-// Значения регистров с учетом масштабирования
+
 float modbus_registers_values[NUM_REGISTERS] = {0};
 
-// Масштабирование для каждого параметра
+
 float scaling_factors[] = {
     1.0f,    // 0  Phase A voltage
     1.0f,    // 1  Phase B voltage
