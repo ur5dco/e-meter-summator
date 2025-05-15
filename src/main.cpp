@@ -173,7 +173,7 @@ void readAllMeters()
         modbus_registers_values[12] = parameter_values[17];
         modbus_registers_values[13] = parameter_values[12];
         modbus_registers_values[14] = parameter_values[13];
-        modbus_registers_values[15] = parameter_values[27] + parameter_values[20];
+        modbus_registers_values[15] = parameter_values[27] + parameter_values[30];
         modbus_registers_values[16] = parameter_values[28] + parameter_values[31];
         modbus_registers_values[17] = parameter_values[27];
         modbus_registers_values[18] = parameter_values[28];
